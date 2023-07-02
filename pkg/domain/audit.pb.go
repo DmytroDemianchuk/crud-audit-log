@@ -87,18 +87,18 @@ type LogRequest_Entities int32
 
 const (
 	LogRequest_USER LogRequest_Entities = 0
-	LogRequest_BOOK LogRequest_Entities = 1
+	LogRequest_MUSIC LogRequest_Entities = 1
 )
 
 // Enum value maps for LogRequest_Entities.
 var (
 	LogRequest_Entities_name = map[int32]string{
 		0: "USER",
-		1: "BOOK",
+		1: "MUSIC",
 	}
 	LogRequest_Entities_value = map[string]int32{
 		"USER": 0,
-		"BOOK": 1,
+		"MUSIC": 1,
 	}
 )
 
